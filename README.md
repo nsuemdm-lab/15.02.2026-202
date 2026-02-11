@@ -123,35 +123,3 @@
 4.  Ссылку на рабочий прототип на хостинге.
 
 ***
-
-# FORMAT: NOTEBOOKLM_PROMPT (Сценарий для генерации лекции/презентации)
-
-**Instruction for the User:** Copy the block below into Google NotebookLM. Upload the two PDF files provided (Methodology and Topics).
-
-```text
-Act as the Head of the Methodological Department of Applied Informatics (Year 2026).
-Based on the uploaded "Methodological Instructions" and "Topic Distribution List (Group 202)", create a detailed slide deck outline for a seminar titled "Coursework Defense Preparation: Code, Security, and Documentation".
-
-Target Audience: 4th-year students (SPO).
-Tone: Professional, urgent, strictly compliant with Russian academic standards.
-
-Directives & Constraints:
-1. NO paid tools. Suggest ONLY: VS Code, Penpot, Beget (Free Hosting), PythonAnywhere, SonarCloud, GitHub.
-2. Specifically address the "Features" (Фишки) listed in the Topic Distribution PDF.
-3. Structure the output as 3 distinct Seminar Blocks.
-
-Deep Research Questions to answer in the slides:
-1. Analyze the specific "Competencies" (PK 9.1 - PK 9.10) from the Methodology PDF. How does connecting a GitHub repo to SonarCloud prove PK 9.5 (Testing)?
-2. Extract the exact structure of the "Introduction" (Введение) from pages 9-11 of the Methodology PDF. Create a "Fill-in-the-blanks" template for students.
-3. Using the "Topic Distribution" PDF, select 3 distinct students (e.g., Agapov, Belozertseva, Votintsev) and generate a specific "Architecture Validation Question" for each of their unique "Features".
-4. Explain the difference between "Object" and "Subject" of research based on the examples in the Methodology PDF (Page 10-11).
-
-Output Format for the Presentation Plan:
-- Slide Title
-- Key Visual (Description of diagram/screenshot)
-- Core Content (Bullet points)
-- Speaker Notes (Direct address to students, e.g., "Ivanov, pay attention to...")
-
-Special Requirement:
-Create a slide specifically for "Common Pitfalls" based on the Methodology PDF (e.g., volume of the report, prohibited formatting errors from Section 5).
-```
